@@ -8,9 +8,9 @@ namespace HRAdministrationAPI
 {
     public class EmployeeBase : IEmployee
     {
-        public int Id { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public string FirstName { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public string LastName { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public virtual decimal Salary { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public int Id { get ; set; }
+        public string FirstName { get ; set ; }
+        public string LastName { get ; set ; }
+        public virtual decimal Salary { get ; set; }
     }
 }
